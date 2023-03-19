@@ -177,7 +177,7 @@ var fiveDayForecastSection = function(cityName) {
 };
 
 
-$("#search-form").on("submit", function() {
+$("#search-form").on("submit", function(event) {
     event.preventDefault();
     
   
